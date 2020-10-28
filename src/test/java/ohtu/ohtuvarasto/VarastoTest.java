@@ -26,7 +26,6 @@ public class VarastoTest {
         saldovarasto = new Varasto(12, 6);
         kayttokelvotonSaldoMiinuksella = new Varasto(-1, -3);
         ylivuoto = new Varasto(9, 11);
-        
     }
 
     @Test
@@ -41,7 +40,7 @@ public class VarastoTest {
     
     @Test
     public void konstruktoriLuoKelvottomanVarastonJosVirheellinenTilavuus() {
-        assertEquals(0, kayttokelvoton.getTilavuus(), vertailuTarkkuus);
+        assertEquals(-1, kayttokelvoton.getTilavuus(), vertailuTarkkuus);
     }
 
     @Test
