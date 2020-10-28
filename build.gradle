@@ -1,5 +1,6 @@
 plugins {
     id 'application' 
+    id 'jacoco'
 }
 
 repositories {
@@ -13,5 +14,12 @@ dependencies {
 }
 
 application {
-    mainClass = 'ohtu.ohtuvarasto.Main'
+    mainClassName = 'ohtu.ohtuvarasto.Main'
 }
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
+    }
+}
+
