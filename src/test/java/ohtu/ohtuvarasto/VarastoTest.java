@@ -40,7 +40,7 @@ public class VarastoTest {
     
     @Test
     public void konstruktoriLuoKelvottomanVarastonJosVirheellinenTilavuus() {
-        assertEquals(-1, kayttokelvoton.getTilavuus(), vertailuTarkkuus);
+        assertEquals(0, kayttokelvoton.getTilavuus(), vertailuTarkkuus);
     }
 
     @Test
