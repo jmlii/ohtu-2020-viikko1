@@ -58,10 +58,10 @@ public class VarastoTest {
         assertEquals(0, kayttokelvotonSaldoMiinuksella.getTilavuus(), vertailuTarkkuus);
     }
     
-    @Test
-    public void uudenVarastonSaldoNollaJosAlkusaldoMiinuksella() {
-        assertEquals(0, kayttokelvotonSaldoMiinuksella.getSaldo(), vertailuTarkkuus);
-    }
+//    @Test
+//    public void uudenVarastonSaldoNollaJosAlkusaldoMiinuksella() {
+//        assertEquals(0, kayttokelvotonSaldoMiinuksella.getSaldo(), vertailuTarkkuus);
+//    }
     
     @Test
     public void uudenVarastonYlimääräVuotanutHukkaan() {
